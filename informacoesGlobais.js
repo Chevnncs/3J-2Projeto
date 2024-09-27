@@ -6,6 +6,7 @@ async function visualizarDadosGlobais(){
  console.log(dados)
  const paragrafo = document.createElement('p');
  paragrafo.classList.add('graficos-texto')
+
 }
 
 visualizarDadosGlobais();
