@@ -3,7 +3,7 @@
 :root{
     --cor-de-fundo: #F5F5F5;
     --cor-primaria: #181C14;
-    --cor-secundaria: #FFEB00;
+    --cor-secundaria: #003cff;
     --fonte: "Poppins", sans-serif;
 }
 *{
@@ -46,4 +46,21 @@ nav a:hover {
     text-decoration: underline;
     transform: scale(1.4);
     transition: transform 0.3s;
+}
+span{
+    color: var(--cor-secundaria);
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background-color: var(--cor-primaria);
+    color: var(--cor-de-fundo);
+}   
+.graficos-container{
+    margin: 5rem;
+}
+.graficos-texto{
+    font-size: 1.3rem;
+    border: var(--cor-secundaria) solid 2px;
+    padding: 2rem;
 }
