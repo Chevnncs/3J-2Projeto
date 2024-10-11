@@ -1,4 +1,4 @@
-async function quantidadeDeUsuarios(){
+async function quantidadeDeUsuario(){
 const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json'
 const resultado  = await fetch(url);
 const dados = await resultado.json();
@@ -12,4 +12,12 @@ const infos = [
         type: 'bar'
     }
 ]
+
+const grafico = document.createElement('div');
+grafico.className = 'grafico'
+document.getElementById('graficos-conterner').appendChild(grafico);
+Plotly.newPlot(grafico,infos);
+
 }
+
+quantidadeDeUsuario()
