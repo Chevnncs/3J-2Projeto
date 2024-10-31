@@ -9,5 +9,4 @@ const tickfont = {
 }
 
 export{
-    getCSS,tickfont
-}
+    getCSS,tickfont }
