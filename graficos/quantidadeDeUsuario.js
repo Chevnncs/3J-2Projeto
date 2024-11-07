@@ -43,7 +43,7 @@ const layout = {
         title:{
             text: 'milhões de usuarios ativos',
             font: {
-                color: getCSS(--cor-secundaria)
+                color: getCSS('--cor-secundaria')
             }
         }
     }
